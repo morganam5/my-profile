@@ -34,7 +34,35 @@ text-align: center;
 .list-horizontal {list-style: none;padding-left: 0px;}
 
 .list-horizontal li {display: inline; padding: 10px;}
+
 .list-horizontal i {font-size: 50px;}
+
 .list-without-bullet-point i {font-size: 25px; text-align: center;}
+
 .profilepic{border: 3px solid #FA8072; border-radius: 10%}
-.
+
+@media only screen and (max-width:768px) {
+  /* For mobile phones: */
+	.container, .card-white, .list-without-bullet-point {
+    	width: 100%;
+	}
+}
+
+table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 100%
+
+}
+
+td, th {
+    border: 1px solid #FFFFFF;
+    text-align: left;
+    padding: 8px;
+    text-align: center;
+}
+ th {color: #FA8072;}
+
+tr:nth-child(even) {
+    background-color: #FFFFFF;
+}

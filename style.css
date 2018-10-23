@@ -1,0 +1,39 @@
+body { background: #FFFAFA;
+color: #DED5D2;
+font-family: Quicksand, sans-serif; 
+letter-spacing: 2px;
+font-weight: lighter;
+text-align: center;
+font-size: 14ipx;}
+
+
+h1, h2, h3 {color: #FA8072;
+font-family: Dancing Script, cursive;
+size: 14px}
+
+
+a{color: #FA8072;}
+
+.container {width: 800px;
+margin: 70px auto;}
+
+.card-white{ background-color: white;
+padding: 40px;
+border-radius: 90px;
+margin:50px 0px;
+text-align: center;
+ }
+
+
+.list-without-bullet-point {
+  list-style-type: none;
+  text-align:center;
+}
+
+.list-horizontal {list-style: none;padding-left: 0px;}
+
+.list-horizontal li {display: inline; padding: 10px;}
+.list-horizontal i {font-size: 50px;}
+.list-without-bullet-point i {font-size: 25px; text-align: center;}
+.profilepic{border: 3px solid #FA8072; border-radius: 10%}
+.
